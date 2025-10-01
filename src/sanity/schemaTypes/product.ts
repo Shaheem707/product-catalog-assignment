@@ -1,0 +1,1 @@
+import { defineType } from "sanity";
