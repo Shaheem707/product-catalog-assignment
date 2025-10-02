@@ -6,11 +6,7 @@ import { urlFor } from "@/sanity/lib/image";
 import { Product } from "@/types/product";
 import { fetchProducts } from "@/lib/products";
 
-interface PageProps {
-  params: { slug: string };
-}
-
-export default async function ProductPage({ params }: PageProps) {
+export default async function ProductPage({ params }: { params: { slug: string } }) {
   const { slug } = params;
 
   const products: Product[] = await fetchProducts();
