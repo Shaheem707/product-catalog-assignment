@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Product Catalog Assignment
 
-## Getting Started
+A modern **Product Catalog Web Application** built with **Next.js, Sanity CMS, and Tailwind CSS**.  
+This project demonstrates integration of a headless CMS (Sanity) with a Next.js frontend for managing and displaying products dynamically.
 
-First, run the development server:
 
-```bash
+## 🖼️ Screenshots of project:
+### Home Page
+![Home Page](./public/HomePage.PNG)
+
+### Products
+![Products](./public/Products.PNG)
+
+### Single Product
+![Single Product](./public/SingleProduct.PNG)
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend**: [Next.js](https://nextjs.org/) + [React](https://reactjs.org/)  
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)  
+- **CMS & Database**: [Sanity.io](https://www.sanity.io/)  
+- **Deployment**: Vercel / Node.js environment  
+
+---
+
+## ✨ Features
+
+- Dynamic product catalog with search & filtering  
+- CMS integration for adding/editing products  
+- Responsive & modern UI with TailwindCSS  
+- Image handling via Sanity Asset pipeline  
+- Seed script to bulk insert mock products  
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+git clone https://github.com/your-username/product-catalog-assignment.git
+cd product-catalog-assignment
+
+### 2️⃣ Install dependencies
+npm install
+
+### 3️⃣ Configure Environment Variables
+Create a .env file in the root directory with:
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
+NEXT_PUBLIC_SANITY_DATASET=production
+NEXT_DEVELOPER_TOKEN=your_sanity_token
+
+### 4️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Now open http://localhost:3000
+ in your browser 🚀
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👨‍💻 Author
+Developed by Muhammad Shaheem ✨
